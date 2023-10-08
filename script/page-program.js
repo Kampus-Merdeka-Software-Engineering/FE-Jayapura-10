@@ -48,7 +48,7 @@ submitBtn.addEventListener("click", dataForm);
 function dataForm(e){
     e.preventDefault();
 
-    fetch('http://localhost:3000/daftar',{
+    fetch('https://be-jayapura-10.vercel.app/daftar',{
         method: 'POST',
         headers: {
             "Content-Type": "application/json",
@@ -81,7 +81,7 @@ function dataForm(e){
 };
 
 function getContentData(){
-    fetch('http://localhost:3000/programcontent')
+    fetch('https://be-jayapura-10.vercel.app/programcontent')
         .then(response => response.json())
         .then(dataArray => {
             dataArray.forEach((data, index) => {

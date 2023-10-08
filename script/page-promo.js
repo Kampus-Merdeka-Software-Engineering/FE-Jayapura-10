@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function getPromo() {
-  fetch("http://localhost:3000/promo")
+  fetch("https://be-jayapura-10.vercel.app/promo")
     .then((response) => response.json())
     .then((dataArray) => {
       dataArray.forEach((data, index) => {

@@ -48,7 +48,6 @@
 
     .program{
         height: 60vh;
-       /* padding-top: 20%; */
     }
     .program img{
         width: 270px;
@@ -236,11 +235,11 @@
     }
 
     .form{
-        width: 300px;
+        width: 350px;
     }
 
     .popup1{
-        width: 250px;
+        width: 280px;
     }
 
     .popup1 img{

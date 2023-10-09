@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function getPromo() {
-  fetch("https://be-jayapura-10.vercel.app/promo")
+  fetch("https://be-jayapura-10-a6pk-muhammadfijas-projects.vercel.app/promo")
     .then((response) => response.json())
     .then((dataArray) => {
       dataArray.forEach((data, index) => {
